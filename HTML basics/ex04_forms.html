@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Demo</title>
+</head>
+<body>
+    <form>
+        <label for="firstName">First Name</label>
+        <input id="firstName" type="text" name="firstName" required>
+
+        <label for="lastName">Last Name</label>
+        <input id="lastName" type="text" name="lastName" required>
+        
+        <div>
+            <label for="male">Male</label>
+            <input id="male" type="radio" name="gender" value="male">
+            <label for="female">Female</label>
+            <input id="female" type="radio" name="gender" value="female">
+            <label for="other">Other</label>
+            <input id="other" type="radio" name="gender" value="other">
+        </div>
+        
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" required>
+        
+        <label for="pass">Password</label>
+        <input id="pass" type="password" minlength="6" maxlength="10">
+        <br>
+
+        <label>Birthday</label>
+        <select name="day" id="day">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <select name="month" id="month">
+            <option value="1">Jan</option>
+            <option value="2">Feb</option>
+            <option value="3">Mar</option>
+        </select>
+        <select name="year" id="year">
+            <option value="1900">1900</option>
+            <option value="2000">2000</option>
+        </select>
+        <br>
+
+        <input type="checkbox" name="agree" id="agree" required>
+        <label for="agree">I agree to terms and conditions</label>
+        <button>Go!</button>
+    </form>
+</body>
+</html>
