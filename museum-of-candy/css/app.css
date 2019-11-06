@@ -1,0 +1,57 @@
+
+
+body {
+    background: #f5d5d9;
+    font-family: 'Nunito';
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 300;
+    background-color: rgb(244, 137, 251);
+    position: fixed;
+}
+
+#mainNavbar .navbar-brand{
+    font-family: 'Marck Script', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ff2a2a;
+}
+
+#mainNavbar .nav-link {
+    color: rgb(252, 217, 255);
+    font-weight: 400;
+}
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+    font-weight: 400;
+}
+
+#headingsGroup h2{
+    color: magenta;
+    font-size: 2rem;
+}
+
+#headingsGroup span {
+    color: #ea1c2c;
+}
+
+@media (max-width: 900px) {
+    #headingsGroup h2{
+        color: magenta;
+        font-size: 1.8rem;
+    }
+}
+
+.content-bar {
+    margin-top: 80px;
+    color: #ea1c2c
+}
+
+.content-bar p{
+    font-weight: 100;
+    line-height: 2;
+}
+
+
