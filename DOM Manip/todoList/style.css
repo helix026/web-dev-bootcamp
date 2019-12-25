@@ -1,0 +1,7 @@
+.focused {
+    font-style: italic;
+}
+
+.checked {
+    text-decoration: line-through;
+}
